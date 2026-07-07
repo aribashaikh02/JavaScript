@@ -26,3 +26,11 @@ character = "World";
 let secondCharacter;
 secondCharacter = character;
 console.log(secondCharacter);
+
+//The code below accesses the count variable with its name in the console.log().
+console.log("\nAccessing the count variable:");
+let count = 8;
+console.log(count + 1);
+console.log(count * 4);
+console.log(count - 4);
+console.log(count / 6);
